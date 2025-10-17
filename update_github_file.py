@@ -11,7 +11,7 @@ SOURCE_URL = "https://raw.githubusercontent.com/maywho5454/10januari2026/refs/he
 DEST_REPO = "Akara4579/belajar"  # Format: "username/repository"
 DEST_FILE_PATH = "joane.m3u"
 COMMIT_MESSAGE = "Auto update: Sync playlist from source"
-GIT_BRANCH = "Main" # Sesuaikan dengan nama branch Anda (misal: "main" atau "master")
+GIT_BRANCH = "main" # Sesuaikan dengan nama branch Anda (misal: "main" atau "master")
 
 def get_source_content():
     """Mengambil konten teks dari URL sumber."""
