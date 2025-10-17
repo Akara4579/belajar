@@ -9,7 +9,7 @@ from github import Github, GithubException
 GITHUB_TOKEN = os.getenv('GITHUB_PAT')  # Ambil token dari environment variable, JANGAN HARDCODE DI SINI
 SOURCE_URL = "https://raw.githubusercontent.com/maywho5454/10januari2026/refs/heads/main/10januari2026"
 DEST_REPO = "Akara4579/belajar"  # Format: "username/repository"
-DEST_FILE_PATH = "akane.m3u"
+DEST_FILE_PATH = "joane.m3u"
 COMMIT_MESSAGE = "Auto update: Sync playlist from source"
 GIT_BRANCH = "Main" # Sesuaikan dengan nama branch Anda (misal: "main" atau "master")
 
